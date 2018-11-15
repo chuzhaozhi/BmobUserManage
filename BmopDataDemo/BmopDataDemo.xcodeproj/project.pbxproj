@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0352D406219C216A0077D5B9 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352D405219C216A0077D5B9 /* RegisterViewController.m */; };
+		0352D409219C21BF0077D5B9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352D408219C21BF0077D5B9 /* LoginViewController.m */; };
+		0352D40C219C21D00077D5B9 /* GetCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352D40B219C21D00077D5B9 /* GetCurrentViewController.m */; };
+		0352D40F219C21E10077D5B9 /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352D40E219C21E10077D5B9 /* UpdateViewController.m */; };
+		0352D412219C21F50077D5B9 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352D411219C21F50077D5B9 /* SearchViewController.m */; };
+		03551144219AC1D10000ABB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03551143219AC1D10000ABB3 /* AppDelegate.m */; };
+		03551147219AC1D10000ABB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03551146219AC1D10000ABB3 /* ViewController.m */; };
+		0355114A219AC1D10000ABB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03551148219AC1D10000ABB3 /* Main.storyboard */; };
+		0355114C219AC1D20000ABB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0355114B219AC1D20000ABB3 /* Assets.xcassets */; };
+		0355114F219AC1D20000ABB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0355114D219AC1D20000ABB3 /* LaunchScreen.storyboard */; };
+		03551152219AC1D20000ABB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03551151219AC1D20000ABB3 /* main.m */; };
+		0355115C219AC1D20000ABB3 /* BmopDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0355115B219AC1D20000ABB3 /* BmopDataDemoTests.m */; };
+		03551167219AC1D20000ABB3 /* BmopDataDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03551166219AC1D20000ABB3 /* BmopDataDemoUITests.m */; };
+		036FA32F219CF622002FD540 /* UpdatePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FA32E219CF622002FD540 /* UpdatePasswordViewController.m */; };
+		036FA332219CF633002FD540 /* GetBackPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FA331219CF633002FD540 /* GetBackPasswordViewController.m */; };
+		F95F5C4291BFDE7644EC4679 /* libPods-BmopDataDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A5B5B931CDE1FDFB0CCC11 /* libPods-BmopDataDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03551158219AC1D20000ABB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03551137219AC1D10000ABB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0355113E219AC1D10000ABB3;
+			remoteInfo = BmopDataDemo;
+		};
+		03551163219AC1D20000ABB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03551137219AC1D10000ABB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0355113E219AC1D10000ABB3;
+			remoteInfo = BmopDataDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0352D403219C201E0077D5B9 /* Bmob-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bmob-PrefixHeader.pch"; sourceTree = "<group>"; };
+		0352D404219C216A0077D5B9 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		0352D405219C216A0077D5B9 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		0352D407219C21BF0077D5B9 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0352D408219C21BF0077D5B9 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0352D40A219C21D00077D5B9 /* GetCurrentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetCurrentViewController.h; sourceTree = "<group>"; };
+		0352D40B219C21D00077D5B9 /* GetCurrentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetCurrentViewController.m; sourceTree = "<group>"; };
+		0352D40D219C21E10077D5B9 /* UpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		0352D40E219C21E10077D5B9 /* UpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
+		0352D410219C21F50077D5B9 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		0352D411219C21F50077D5B9 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		0355113F219AC1D10000ABB3 /* BmopDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmopDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03551142219AC1D10000ABB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03551143219AC1D10000ABB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03551145219AC1D10000ABB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03551146219AC1D10000ABB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03551149219AC1D10000ABB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0355114B219AC1D20000ABB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0355114E219AC1D20000ABB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03551150219AC1D20000ABB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03551151219AC1D20000ABB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03551157219AC1D20000ABB3 /* BmopDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BmopDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0355115B219AC1D20000ABB3 /* BmopDataDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BmopDataDemoTests.m; sourceTree = "<group>"; };
+		0355115D219AC1D20000ABB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03551162219AC1D20000ABB3 /* BmopDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BmopDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03551166219AC1D20000ABB3 /* BmopDataDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BmopDataDemoUITests.m; sourceTree = "<group>"; };
+		03551168219AC1D20000ABB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036FA32D219CF622002FD540 /* UpdatePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdatePasswordViewController.h; sourceTree = "<group>"; };
+		036FA32E219CF622002FD540 /* UpdatePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdatePasswordViewController.m; sourceTree = "<group>"; };
+		036FA330219CF633002FD540 /* GetBackPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetBackPasswordViewController.h; sourceTree = "<group>"; };
+		036FA331219CF633002FD540 /* GetBackPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetBackPasswordViewController.m; sourceTree = "<group>"; };
+		0B8F48856727D575DB07FA6D /* Pods-BmopDataDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmopDataDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BmopDataDemo/Pods-BmopDataDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		19A5B5B931CDE1FDFB0CCC11 /* libPods-BmopDataDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmopDataDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F05B06F07FB434FC3946D4 /* Pods-BmopDataDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmopDataDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BmopDataDemo/Pods-BmopDataDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0355113C219AC1D10000ABB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95F5C4291BFDE7644EC4679 /* libPods-BmopDataDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03551154219AC1D20000ABB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0355115F219AC1D20000ABB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03551136219AC1D10000ABB3 = {
+			isa = PBXGroup;
+			children = (
+				03551141219AC1D10000ABB3 /* BmopDataDemo */,
+				0355115A219AC1D20000ABB3 /* BmopDataDemoTests */,
+				03551165219AC1D20000ABB3 /* BmopDataDemoUITests */,
+				03551140219AC1D10000ABB3 /* Products */,
+				11B748BBAB0956D6B8592D1C /* Pods */,
+				B09CF6F2D9D2AF75B116159B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03551140219AC1D10000ABB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0355113F219AC1D10000ABB3 /* BmopDataDemo.app */,
+				03551157219AC1D20000ABB3 /* BmopDataDemoTests.xctest */,
+				03551162219AC1D20000ABB3 /* BmopDataDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03551141219AC1D10000ABB3 /* BmopDataDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03551142219AC1D10000ABB3 /* AppDelegate.h */,
+				03551143219AC1D10000ABB3 /* AppDelegate.m */,
+				03551145219AC1D10000ABB3 /* ViewController.h */,
+				03551146219AC1D10000ABB3 /* ViewController.m */,
+				0352D404219C216A0077D5B9 /* RegisterViewController.h */,
+				0352D405219C216A0077D5B9 /* RegisterViewController.m */,
+				0352D407219C21BF0077D5B9 /* LoginViewController.h */,
+				0352D408219C21BF0077D5B9 /* LoginViewController.m */,
+				0352D40A219C21D00077D5B9 /* GetCurrentViewController.h */,
+				0352D40B219C21D00077D5B9 /* GetCurrentViewController.m */,
+				0352D40D219C21E10077D5B9 /* UpdateViewController.h */,
+				0352D40E219C21E10077D5B9 /* UpdateViewController.m */,
+				0352D410219C21F50077D5B9 /* SearchViewController.h */,
+				0352D411219C21F50077D5B9 /* SearchViewController.m */,
+				036FA32D219CF622002FD540 /* UpdatePasswordViewController.h */,
+				036FA32E219CF622002FD540 /* UpdatePasswordViewController.m */,
+				036FA330219CF633002FD540 /* GetBackPasswordViewController.h */,
+				036FA331219CF633002FD540 /* GetBackPasswordViewController.m */,
+				03551148219AC1D10000ABB3 /* Main.storyboard */,
+				0355114B219AC1D20000ABB3 /* Assets.xcassets */,
+				0355114D219AC1D20000ABB3 /* LaunchScreen.storyboard */,
+				03551150219AC1D20000ABB3 /* Info.plist */,
+				0352D403219C201E0077D5B9 /* Bmob-PrefixHeader.pch */,
+				03551151219AC1D20000ABB3 /* main.m */,
+			);
+			path = BmopDataDemo;
+			sourceTree = "<group>";
+		};
+		0355115A219AC1D20000ABB3 /* BmopDataDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0355115B219AC1D20000ABB3 /* BmopDataDemoTests.m */,
+				0355115D219AC1D20000ABB3 /* Info.plist */,
+			);
+			path = BmopDataDemoTests;
+			sourceTree = "<group>";
+		};
+		03551165219AC1D20000ABB3 /* BmopDataDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03551166219AC1D20000ABB3 /* BmopDataDemoUITests.m */,
+				03551168219AC1D20000ABB3 /* Info.plist */,
+			);
+			path = BmopDataDemoUITests;
+			sourceTree = "<group>";
+		};
+		11B748BBAB0956D6B8592D1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B8F48856727D575DB07FA6D /* Pods-BmopDataDemo.debug.xcconfig */,
+				B7F05B06F07FB434FC3946D4 /* Pods-BmopDataDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B09CF6F2D9D2AF75B116159B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19A5B5B931CDE1FDFB0CCC11 /* libPods-BmopDataDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0355113E219AC1D10000ABB3 /* BmopDataDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0355116B219AC1D20000ABB3 /* Build configuration list for PBXNativeTarget "BmopDataDemo" */;
+			buildPhases = (
+				23A3F5FEEB8938878AEB4E02 /* [CP] Check Pods Manifest.lock */,
+				0355113B219AC1D10000ABB3 /* Sources */,
+				0355113C219AC1D10000ABB3 /* Frameworks */,
+				0355113D219AC1D10000ABB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BmopDataDemo;
+			productName = BmopDataDemo;
+			productReference = 0355113F219AC1D10000ABB3 /* BmopDataDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03551156219AC1D20000ABB3 /* BmopDataDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0355116E219AC1D20000ABB3 /* Build configuration list for PBXNativeTarget "BmopDataDemoTests" */;
+			buildPhases = (
+				03551153219AC1D20000ABB3 /* Sources */,
+				03551154219AC1D20000ABB3 /* Frameworks */,
+				03551155219AC1D20000ABB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03551159219AC1D20000ABB3 /* PBXTargetDependency */,
+			);
+			name = BmopDataDemoTests;
+			productName = BmopDataDemoTests;
+			productReference = 03551157219AC1D20000ABB3 /* BmopDataDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03551161219AC1D20000ABB3 /* BmopDataDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03551171219AC1D20000ABB3 /* Build configuration list for PBXNativeTarget "BmopDataDemoUITests" */;
+			buildPhases = (
+				0355115E219AC1D20000ABB3 /* Sources */,
+				0355115F219AC1D20000ABB3 /* Frameworks */,
+				03551160219AC1D20000ABB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03551164219AC1D20000ABB3 /* PBXTargetDependency */,
+			);
+			name = BmopDataDemoUITests;
+			productName = BmopDataDemoUITests;
+			productReference = 03551162219AC1D20000ABB3 /* BmopDataDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03551137219AC1D10000ABB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JackerooChu;
+				TargetAttributes = {
+					0355113E219AC1D10000ABB3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					03551156219AC1D20000ABB3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0355113E219AC1D10000ABB3;
+					};
+					03551161219AC1D20000ABB3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0355113E219AC1D10000ABB3;
+					};
+				};
+			};
+			buildConfigurationList = 0355113A219AC1D10000ABB3 /* Build configuration list for PBXProject "BmopDataDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03551136219AC1D10000ABB3;
+			productRefGroup = 03551140219AC1D10000ABB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0355113E219AC1D10000ABB3 /* BmopDataDemo */,
+				03551156219AC1D20000ABB3 /* BmopDataDemoTests */,
+				03551161219AC1D20000ABB3 /* BmopDataDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0355113D219AC1D10000ABB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0355114F219AC1D20000ABB3 /* LaunchScreen.storyboard in Resources */,
+				0355114C219AC1D20000ABB3 /* Assets.xcassets in Resources */,
+				0355114A219AC1D10000ABB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03551155219AC1D20000ABB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03551160219AC1D20000ABB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A3F5FEEB8938878AEB4E02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BmopDataDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0355113B219AC1D10000ABB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03551147219AC1D10000ABB3 /* ViewController.m in Sources */,
+				03551152219AC1D20000ABB3 /* main.m in Sources */,
+				03551144219AC1D10000ABB3 /* AppDelegate.m in Sources */,
+				0352D40F219C21E10077D5B9 /* UpdateViewController.m in Sources */,
+				036FA32F219CF622002FD540 /* UpdatePasswordViewController.m in Sources */,
+				0352D40C219C21D00077D5B9 /* GetCurrentViewController.m in Sources */,
+				0352D406219C216A0077D5B9 /* RegisterViewController.m in Sources */,
+				036FA332219CF633002FD540 /* GetBackPasswordViewController.m in Sources */,
+				0352D412219C21F50077D5B9 /* SearchViewController.m in Sources */,
+				0352D409219C21BF0077D5B9 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03551153219AC1D20000ABB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0355115C219AC1D20000ABB3 /* BmopDataDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0355115E219AC1D20000ABB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03551167219AC1D20000ABB3 /* BmopDataDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03551159219AC1D20000ABB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0355113E219AC1D10000ABB3 /* BmopDataDemo */;
+			targetProxy = 03551158219AC1D20000ABB3 /* PBXContainerItemProxy */;
+		};
+		03551164219AC1D20000ABB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0355113E219AC1D10000ABB3 /* BmopDataDemo */;
+			targetProxy = 03551163219AC1D20000ABB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03551148219AC1D10000ABB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03551149219AC1D10000ABB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0355114D219AC1D20000ABB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0355114E219AC1D20000ABB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03551169219AC1D20000ABB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0355116A219AC1D20000ABB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0355116C219AC1D20000ABB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8F48856727D575DB07FA6D /* Pods-BmopDataDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/a123123/Desktop/BmopDataDemo/BmopDataDemo/Bmob-PrefixHeader.pch";
+				INFOPLIST_FILE = BmopDataDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackerooChu.www.BmopDataDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0355116D219AC1D20000ABB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F05B06F07FB434FC3946D4 /* Pods-BmopDataDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/a123123/Desktop/BmopDataDemo/BmopDataDemo/Bmob-PrefixHeader.pch";
+				INFOPLIST_FILE = BmopDataDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackerooChu.www.BmopDataDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0355116F219AC1D20000ABB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BmopDataDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackerooChu.www.BmopDataDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmopDataDemo.app/BmopDataDemo";
+			};
+			name = Debug;
+		};
+		03551170219AC1D20000ABB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BmopDataDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackerooChu.www.BmopDataDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmopDataDemo.app/BmopDataDemo";
+			};
+			name = Release;
+		};
+		03551172219AC1D20000ABB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BmopDataDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackerooChu.www.BmopDataDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BmopDataDemo;
+			};
+			name = Debug;
+		};
+		03551173219AC1D20000ABB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BmopDataDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackerooChu.www.BmopDataDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BmopDataDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0355113A219AC1D10000ABB3 /* Build configuration list for PBXProject "BmopDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03551169219AC1D20000ABB3 /* Debug */,
+				0355116A219AC1D20000ABB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0355116B219AC1D20000ABB3 /* Build configuration list for PBXNativeTarget "BmopDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0355116C219AC1D20000ABB3 /* Debug */,
+				0355116D219AC1D20000ABB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0355116E219AC1D20000ABB3 /* Build configuration list for PBXNativeTarget "BmopDataDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0355116F219AC1D20000ABB3 /* Debug */,
+				03551170219AC1D20000ABB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03551171219AC1D20000ABB3 /* Build configuration list for PBXNativeTarget "BmopDataDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03551172219AC1D20000ABB3 /* Debug */,
+				03551173219AC1D20000ABB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03551137219AC1D10000ABB3 /* Project object */;
+}
